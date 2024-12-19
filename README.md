@@ -33,7 +33,7 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 ## Spotify Analyzer:
 
-1. Initialize the SpotifyAnalyzer Class: Provide your Client ID and Client Secret
+1. Provide your Client ID and Client Secret
 
 2. Provide a list of artists. You can use the get_artist_top_tracks to analyze their top tracks.
 
