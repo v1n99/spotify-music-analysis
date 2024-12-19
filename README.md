@@ -53,7 +53,7 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 -Combined data in a CSV file (spotify_top_tracks_analysis.csv).
 
--Summary statistics and top tracks for each artist.
+-Summary statistics and top tracks.
 
 -Variety of visuals including box plot and bar chart for popularity and average track duration.
 
