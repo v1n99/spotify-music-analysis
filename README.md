@@ -15,12 +15,30 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 ## Libraries:
 
-spotipy
+- spotipy
 
-pandas
+- pandas
 
-numpy
+- numpy
 
-matplotlib
+- matplotlib
 
-seaborn
+- seaborn
+
+## Spotify Analyzer (Real Data)
+
+1. Initialize the SpotifyAnalyzer Class: Provide your Client ID and Client Secret
+
+2. Provide a list of artist
+
+You can use the get_artist_top_tracks to analyze their top tracks.
+
+3. Run Analysis and Visualizations
+
+The code outputs:
+
+- Combined data in a CSV file (top_10_artists_tracks.csv).
+
+- Summary statistics and top tracks for each artist.
+
+- Box plot and bar chart for popularity and average track duration.
