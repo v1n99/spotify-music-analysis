@@ -17,4 +17,10 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 spotipy
 
+pandas
+
 numpy
+
+matplotlib
+
+seaborn
