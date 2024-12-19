@@ -27,6 +27,10 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 - seaborn
 
+- datetime
+
+- time
+
 ## Spotify Analyzer:
 
 1. Initialize the SpotifyAnalyzer Class: Provide your Client ID and Client Secret
