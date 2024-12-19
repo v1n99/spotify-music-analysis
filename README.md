@@ -5,15 +5,17 @@ Spotify's audio features with streaming performance metrics to uncover patterns 
 
 Fetch and analyze the top tracks of popular artists using the Spotify Web API. The analysis includes data on artist name, track name, track popularity, album, release year, and duration.
 
-Generate synthetic data.
-
-Provide visualizations and insights into track performance, streaming trends, and audio features such as danceability, energy, and valence.
+Provide visualizations and insights into top artist, tracks, streaming trends, and audio features such as danceability, energy, and valence.
 
 ## Requirements:
 
 Python
 
 Spotify Developer Account (https://developer.spotify.com/)
+
+- Log in to Spotify Developer Dashboard
+  
+- Create new application to get Client ID and Client Secret
 
 ## Libraries:
 
@@ -33,28 +35,14 @@ Spotify Developer Account (https://developer.spotify.com/)
 
 ## Spotify Analyzer:
 
-1. Provide your Client ID and Client Secret.
+1. Initialize Spotify client by providing Client ID and Client Secret
 
-2. Provide a list of artists. You can use the get_artist_top_tracks to analyze their top tracks.
-
+2. Define genres and top artists to analyze
+  
 3. Run Analysis and Visualization. The code outputs:
 
-- Combined data in a CSV file (top_10_artists_tracks.csv).
+-Combined data in a CSV file (spotify_top_tracks_analysis.csv).
 
-- Summary statistics and top tracks for each artist.
+-Summary statistics and top tracks for each artist.
 
-- Box plot and bar chart for popularity and average track duration.
-
-## Synthetic Data:
-
-1. Initialize the StreamingDataProcessor Class by using _generate_synthetic_data.
-
-2. Use StreamingVisualizer to visualize data like
-
-- Stream Distribution (plot_feature_correlations)
-
-- Feature Correlations (plot_feature_correlations)
-
-- Streaming trends over time (plot_streaming_trends)
-
-3. Analyze Trends using get_artist_stats and get_peak_streaming_periods.
+-Variety of visuals including box plot and bar chart for popularity and average track duration.
